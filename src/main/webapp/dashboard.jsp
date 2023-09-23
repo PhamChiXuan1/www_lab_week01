@@ -45,7 +45,7 @@
                 if(status.equalsIgnoreCase("-1")){
                     status = "Xoa";
                 }
-            }
+
             %>
                 <tr>
                     <td><%= list.get(i)[0].toString() %></td>
@@ -57,6 +57,9 @@
                     <td><a href="updateAccount.jsp?id=<%=list.get(i)[0].toString()%>"><input class="btn btn-primary" type="button" name="edit" id="edit" value="Edit"/></a></td>
                     <td><a href="deleteAccount?id=<%=list.get(i)[0].toString()%>"><input class="btn btn-primary" type="button" name="edit" id="delete" value="Delete"/></a></td>
                 </tr>
+            <%
+            }
+            %>
             </tbody>
         </form>
     </table>

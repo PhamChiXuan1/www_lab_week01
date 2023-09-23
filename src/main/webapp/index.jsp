@@ -10,7 +10,7 @@
   <div class="row" style="margin-top: 10px;">
     <div class="contnet" style="height: 1090px; width: 960px; margin: auto">
       <h1>Sign in</h1>
-      <div class="body" style="margin-top: 10:px">
+      <div class="body" style="margin-top: 10px">
         <form method="post" action="login">
           <label for="username" class="control-label col-xs-3">Email: </label>
           <input type="text" class="form-control" name="username" id="username" style="width: 600px" placeholder="Email"/>
